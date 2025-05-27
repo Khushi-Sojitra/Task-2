@@ -1,0 +1,30 @@
+=>Analyze a Phishing Email Sample:
+
+
+->EMAIL DETAILS
+
+	Subject: Urgent Notice – Account Verification Required
+	Sender: secure@paypalsecurity-alerts.com
+	Received Date: May 26, 2025
+
+->PHISHING INDICATORS FOUND
+
+	1. Spoofed sender address: Domain "paypalsecurity-alerts.com" is fake.
+	2. Email header authentication failed: SPF and DKIM not verified.
+	3. Suspicious link: Text showed PayPal but redirected to http://security-alerts-paypal.verify-now.ru/login.
+	4. Urgent and threatening language to create panic.
+	5. Attachment: Invoice_Review.html (potential fake login page).
+	6. Grammar issues: "unusual activity", "account" – signs of phishing.
+
+->SUMMARY OF PHISHING TRAITS
+
+	~ Fake email address
+	~ Header authentication failed
+	~ Phishing link mismatch
+	~ Panic-inducing tone
+	~ Suspicious attachment
+	~ Bad spelling and grammar
+
+->CONCLUSION
+
+	The email is a phishing attempt designed to steal user credentials. Avoid interacting with it and report as phishing.
